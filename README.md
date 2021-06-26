@@ -1,4 +1,4 @@
-# basic-bot-template
+# basic-bot-template written in JavaScript
 A basic discord level bot with costumizable welcome messages and rank command
 
 # Requirements
