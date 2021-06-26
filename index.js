@@ -34,9 +34,7 @@ mongoose.connect(process.env.MONGO, {
 bot.on('message',async message => {
     if(message.author.bot) return;
 
-    const args = message.content.slice(prefix.length).split(/ +/);
-    const cmd = args.shift().toLowerCase();
-
+    
 
     GuildConfig.findOne({
         guild: message.guild.id
@@ -91,6 +89,10 @@ bot.on('message',async message => {
     
 
 );
+    if(!message.content.startsWith(prefix)) return;
+    const args = message.content.slice(prefix.length).split(/ +/);
+    const cmd = args.shift().toLowerCase();
+
     if(cmd == 'rank') {
         bot.commands.get('rank').execute(message, args, mongoose, Discord);
     }
