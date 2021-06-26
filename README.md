@@ -17,6 +17,7 @@ A basic discord level bot with costumizable welcome messages and rank command
 - For the welcome message insert the image path like here in the given example in the `welcome.js` file under `Events` like here 
 `const background = await Canvas.loadImage('./canvas.jpg');`
 - Start up command is `node .` for testing
+- Change the invite URL in the `index.js` file at line 113 for your bot's invite url
 - Your done and enjoy!
 
 YOU CAN USE THIS BOT TEMPLATE FOR FREE BUT REMEMBER! 
