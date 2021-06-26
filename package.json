@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "canvacord": "^5.2.1",
+    "canvas": "^2.8.0",
+    "discord-canvas": "^1.4.1",
+    "discord-xp": "^1.1.14",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fetch": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.12.14",
+    "node-fetch": "^2.6.1",
+    "random": "^3.0.6"
+  },
+  "name": "yanneck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haranmes/Yanneck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haranmes/Yanneck/issues"
+  },
+  "homepage": "https://github.com/Haranmes/Yanneck#readme",
+  "description": ""
+}
